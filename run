@@ -1,0 +1,2 @@
+#mvn exec:java -Dexec.mainClass="PinkMST.LocalDataSplitter"
+java -cp "/Users/cjin/git/spark/assembly/target/scala-2.10/spark-assembly-1.0.0-SNAPSHOT-hadoop2.0.0-cdh4.6.0.jar:target/pink-1.0.jar:." pink.Pink clust32k 400 4 3 ./sparkConfig

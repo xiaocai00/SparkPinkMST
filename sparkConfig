@@ -1,0 +1,12 @@
+spark.logConf=true
+spark.eventLog.enabled=true
+spark.eventLog.compress=false
+spark.default.parallelism=4
+spark.serializer=org.apache.spark.serializer.KryoSerializer
+spark.closure.serializer=org.apache.spark.serializer.KryoSerializer
+spark.kryo.registrator=pink.PinkKryoRegistrator
+spark.jars=lib/pink-1.0.jar,lib/spark-assembly-1.0.0-SNAPSHOT-hadoop2.0.0-cdh4.2.0.jar
+pink.jarPaths=lib/*.jar
+pink.sparkHome=/Users/cjin/git/spark
+pink.masterUrl=spark://192.168.1.111:7077
+spark.master=spark://192.168.1.111:7077
